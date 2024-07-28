@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chatBabysitter", "chatBabysitter.csproj", "{2905C5C5-F32E-41D2-873A-E31FF8F14954}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chatBabysitter.Test", "..\chatBabysitter.Test\chatBabysitter.Test.csproj", "{A13AB1B1-7797-4F58-8C68-2E8F1358AFD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2905C5C5-F32E-41D2-873A-E31FF8F14954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2905C5C5-F32E-41D2-873A-E31FF8F14954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2905C5C5-F32E-41D2-873A-E31FF8F14954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13AB1B1-7797-4F58-8C68-2E8F1358AFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13AB1B1-7797-4F58-8C68-2E8F1358AFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13AB1B1-7797-4F58-8C68-2E8F1358AFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13AB1B1-7797-4F58-8C68-2E8F1358AFD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
