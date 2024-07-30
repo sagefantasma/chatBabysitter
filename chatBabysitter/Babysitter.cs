@@ -2,6 +2,14 @@
 {
     public class Babysitter
     {
+        public enum BabysittingModes
+        {
+            ClipShow,
+            Ai,
+            InteractiveGame,
+            Trivia
+        }
+
         #region Fields & Properties
         private bool _currentlyEntertaining = false;
         public bool CurrentlyEntertaining
@@ -25,15 +33,21 @@
         private uint AfkThresholdMs { get; set; } = 120000;
         #endregion
 
-        public void ActivateBabysitter(bool startTheEntertainment)
+        public void ActivateBabysitter(bool startTheEntertainment = false)
         {
             IsActive = true;
             CurrentlyEntertaining = startTheEntertainment;
         }
 
+        public void DeactivateBabysitter()
+        {
+            IsActive = false;
+            CurrentlyEntertaining = false;
+        }
+
         private void StartEntertaining()
         {
-
+            
         }
 
         private void StopEntertaining()
